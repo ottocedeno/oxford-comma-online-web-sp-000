@@ -1,5 +1,3 @@
-require 'pry'
-
 def oxford_comma(array)
   if array.size == 1
     return array[array.size - 1].to_s
