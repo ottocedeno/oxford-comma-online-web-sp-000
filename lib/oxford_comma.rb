@@ -8,8 +8,3 @@ def oxford_comma(array)
     return array.join(", ")
   end
 end
-
-four = ["Otto", "has", "a", "dog"]
-single = ["Otto"]
-
-puts oxford_comma(four)
